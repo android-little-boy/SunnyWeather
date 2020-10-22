@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragmentPlaceLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="?android:windowBackground">
+    android:background="@color/gravy2">
     <ImageView
         android:id="@+id/bgImageView"
         android:layout_width="match_parent"
@@ -12,8 +13,7 @@
     <FrameLayout
         android:id="@+id/actionBarLayout"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:background="@color/purple_500">
+        android:layout_height="60dp">
         <EditText
             android:id="@+id/searchPlaceEdit"
             android:layout_width="match_parent"
