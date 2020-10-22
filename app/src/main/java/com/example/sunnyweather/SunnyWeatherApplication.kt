@@ -7,7 +7,7 @@ import android.content.Context
 class SunnyWeatherApplication:Application(){
     companion object{
         lateinit var context:Context //书中说会报错需要加一个注解@SuppressLint("StaticFieldLeak")，这里没有报错，暂时不加先
-        const val TOKEN="令牌"//暂时还没有审核通过，先以“令牌”代替
+        const val TOKEN="rG0bJBAg3YtIdtJ6"//彩云天气api接口令牌
     }
 
     override fun onCreate() {
