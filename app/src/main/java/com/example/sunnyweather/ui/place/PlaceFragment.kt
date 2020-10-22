@@ -41,7 +41,7 @@ class PlaceFragment : Fragment() {
          * 结合liveData利用开启线程去获取存储的地址
          * 虽然在开启应用的时候没什么必要，但学的东西自己试一下还是感觉很好的
          */
-        if (activity is MainActivity){
+        if (activity is MainActivity) {
             viewModel.getSavedPlace()
         }
         viewModel.savedPlaceLiveData.observe(viewLifecycleOwner, Observer { place ->
